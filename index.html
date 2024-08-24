@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jadoo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --font-display: 'Poppins';
+            --font-big: 'Volkhov';
+        }
+        
+        body {
+            font-family: var(--font-display);
+        }
+
+        .font-display {
+            font-family: var(--font-display);
+        }
+
+        .font-big {
+            font-family: var(--font-big);
+        }
+    </style>
 </head>
+
 <body>
     <main class="relative">
-        <header class="top-0 py-12">
+        <header class="fixed top-0 py-12 w-full z-50 h-20">
             <nav class="flex justify-between gap-10 items-end max-w-screen mx-52 max-lg:mx-auto">
                 <a href="#home" id="home" class="block flex-1">
                     <img 
@@ -17,7 +38,7 @@
 
                     >
                 </a>
-                <ul class="flex justify-between items-end gap-20 pl-20">
+                <ul class="flex justify-between items-end gap-20 pl-20 font-display font-semibold">
                     <li>Destinations</li>
                     <li>Hotels</li>
                     <li>Flights</li>
@@ -28,23 +49,38 @@
                 </ul>
             </nav>
         </header>
-        <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
-            <div>
-                <h3>
-                    BEST DESTINATIONS AROUND THE WORLD
-                </h3>
-                <h1>
-                    Travel, enjoy and live a new and full life
-                </h1>
-                <p>
-                    Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
-                </p>
-                <div>
-                    <button href="">Find out more</button>
-                    <button href="">Play Demo</button>
+
+        <section class="max-w-screen mx-52 max-lg:mx-auto mt-28 py-9">
+            <div class="flex flex-row-reverse justify-between items-center">
+                <div class="w-1/2">
+                    <img src="images/Traveller 1.png" alt="">
+                </div>
+                <div class="w-1/2">
+                    <div class="w-4/5 justify-center">
+                        <h3 class="text-orange-600 font-bold text-[20px]">
+                            BEST DESTINATIONS AROUND THE WORLD
+                        </h3>
+                        <h1 class="font-big font-bold text-[84px] leading-[89px] py-8">
+                            Travel, enjoy and live a new and full life
+                        </h1> 
+                        <div class="w-4/5 justify-start py-2">
+                            <p class="font-display font-medium text-[16.5px] leading-[30px] text-cyan-900">
+                                Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+                            </p>
+                        </div>
+                        <div class="w-3/5 justify-between flex flex-row items-center">
+                            <div>
+                                <button href="" class="px-4 py-3 rounded-lg bg-yellow-500 text-white">Find out more</button>
+                            </div>
+                            <div>
+                                <button href="">Play Demo</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
             <div>
                 <h3>CATEGORY</h3>
@@ -77,6 +113,7 @@
                 </ul>
             </div>
         </section>
+
         <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
             <div>
                 <h3>Top Selling</h3>
@@ -118,6 +155,7 @@
                 </ul>
             </div>
         </section>
+
         <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
             <div>
                 <div>
@@ -153,6 +191,7 @@
                 <div></div>
             </div>
         </section>
+
         <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
             <div>
                 <div>
@@ -162,6 +201,7 @@
                 <div></div>
             </div>
         </section>
+        
         <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
             <div>
                 <div>

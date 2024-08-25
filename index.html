@@ -29,7 +29,7 @@
 
 <body class="text-cyan-900 font-medium bg-gray-100">
     <main class="relative">
-        <header class="fixed top-0 py-6 w-full z-50 h-20 bg-gray-100">
+        <header class="relative top-0 py-6 w-full z-50 h-20">
             <nav class="flex justify-between gap-10 items-center max-w-screen mx-52 max-lg:mx-auto">
                 <a href="#home" id="home" class="block flex-1">
                     <img 
@@ -50,12 +50,21 @@
             </nav>
         </header>
 
-        <section class="max-w-screen mx-52 max-lg:mx-auto mt-28 py-9">
+        <section class="max-w-screen top-0 absolute w-full">
+            <div class="w-full">
+                <img src="images/Decore-1.png" alt="" class="object-cover w-full z-0">
+                <img src="images/plane-1.png" alt="" class="absolute top-72 left-1/2 transform translate-x-0 -translate-y-[50px] z-1">
+                <img src="images/plane-1.png" alt="" class="absolute top-80 right-80 transform translate-x-[140px] -translate-y-0 z-10">
+                <img src="images/Vector 6.png" alt="" width="385px" height="12px" class="absolute top-96 right-1/2 transform -translate-x-[96px] translate-y-[14px] z-10">
+            </div>
+        </section>
+
+        <section class="max-w-screen mx-52 max-lg:mx-auto mt-14 py-9">
             <div class="flex flex-row-reverse justify-between items-center">
-                <div class="w-1/2">
+                <div class="w-1/2 z-20">
                     <img src="images/Traveller 1.png" alt="" class=" hover:scale-110 transition-transform duration-300 ease-in-out transform">
                 </div>
-                <div class="w-1/2">
+                <div class="w-1/2 z-20">
                     <div class="w-4/5 justify-center">
                         <h3 class="text-orange-600 font-bold text-[20px]">
                             BEST DESTINATIONS AROUND THE WORLD
@@ -278,13 +287,46 @@
             </div>
         </section>
 
-        <section class="max-w-screen mx-52 max-lg:mx-auto">
-            <div>
-                <div>
-                    <h3>TESTIMONIALS</h3>
-                    <h1>What People Say About Us.</h1>
+        <section class="max-w-screen mx-52 px-10 max-lg:mx-auto my-32">
+            <div class="flex flex-row justify-start">
+                <div class="w-1/2">
+                    <div class="w-3/5">
+                        <h3 class="py-1 font-semibold">TESTIMONIALS</h3>
+                        <h1 class="font-big font-bold text-[53px] leading-[70px] py-2" style="color: #14183E;">What People Say About Us.</h1>
+                        <div class="flex flex-row gap-8 my-24">
+                            <div class="px-1 py-1 rounded-full border-2 w-1" style="background-color: #39425D; border-color: #39425D;"></div>
+                            <div class="px-1 py-1 rounded-full border-2 w-1" style="background-color: #E5E5E5; border-color: #E5E5E5;"></div>
+                            <div class="px-1 py-1 rounded-full border-2 w-1" style="background-color: #E5E5E5; border-color: #E5E5E5;"></div>
+                        </div>
+                    </div>
                 </div>
-                <div></div>
+                <div class="w-1/2">
+                    <div class="relative z-50">
+                        <img src="images/image (2).png" alt="" class="rounded-full" width="68px" height="68px">
+                    </div>
+                    <div class="relative w-4/5 z-10">
+                        <div class=" absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-lg transform -top-8 -right-[8px] bg-gray-100">
+                            <div class="mx-2 w-4/5">
+                                <p class="" style="color: #4E4E73;">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                            </div>
+                            <div class="flex flex-col mx-2 mt-6 mb-2">
+                                <h4 class="font-semibold pb-1" style="color: #5E6282;">Mike taylor</h4>
+                                <p class="text-[14px]" style="color: #5E6282;">Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative w-4/5 opacity-80" style="background-color: #f7f7f7;">
+                        <div class="absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-md transform top-[62px] left-[90px] z-0">
+                            <div class="mx-2 w-4/5">
+                                <p class="" style="color: #4E4E73;">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                            </div>
+                            <div class="flex flex-col mx-2 mt-6 -mb-2">
+                                <h4 class="font-semibold pb-1" style="color: #5E6282;">Chris Thomas</h4>
+                                <p class="text-[14px]" style="color: #5E6282;">CEO of Red Botton</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         

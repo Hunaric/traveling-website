@@ -27,10 +27,10 @@
     </style>
 </head>
 
-<body>
+<body class="text-cyan-900 font-medium bg-gray-100">
     <main class="relative">
-        <header class="fixed top-0 py-12 w-full z-50 h-20">
-            <nav class="flex justify-between gap-10 items-end max-w-screen mx-52 max-lg:mx-auto">
+        <header class="fixed top-0 py-6 w-full z-50 h-20 bg-gray-100">
+            <nav class="flex justify-between gap-10 items-center max-w-screen mx-52 max-lg:mx-auto">
                 <a href="#home" id="home" class="block flex-1">
                     <img 
                      src="images/Logo.png" 
@@ -38,7 +38,7 @@
 
                     >
                 </a>
-                <ul class="flex justify-between items-end gap-20 pl-20 font-display font-semibold">
+                <ul class="flex justify-between items-end gap-20 pl-20 font-display font-semibold text-black">
                     <li>Destinations</li>
                     <li>Hotels</li>
                     <li>Flights</li>
@@ -53,27 +53,31 @@
         <section class="max-w-screen mx-52 max-lg:mx-auto mt-28 py-9">
             <div class="flex flex-row-reverse justify-between items-center">
                 <div class="w-1/2">
-                    <img src="images/Traveller 1.png" alt="">
+                    <img src="images/Traveller 1.png" alt="" class=" hover:scale-110 transition-transform duration-300 ease-in-out transform">
                 </div>
                 <div class="w-1/2">
                     <div class="w-4/5 justify-center">
                         <h3 class="text-orange-600 font-bold text-[20px]">
                             BEST DESTINATIONS AROUND THE WORLD
                         </h3>
-                        <h1 class="font-big font-bold text-[84px] leading-[89px] py-8">
+                        <h1 class="font-big font-bold text-[84px] leading-[89px] py-8 " style="color: #212832;">
                             Travel, enjoy and live a new and full life
                         </h1> 
                         <div class="w-4/5 justify-start py-2">
-                            <p class="font-display font-medium text-[16.5px] leading-[30px] text-cyan-900">
+                            <p class="font-display font-medium text-[16.5px] leading-[30px]">
                                 Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
                             </p>
                         </div>
-                        <div class="w-3/5 justify-between flex flex-row items-center">
+                        <div class="w-3/5 justify-between flex flex-row items-center h-full">
                             <div>
                                 <button href="" class="px-4 py-3 rounded-lg bg-yellow-500 text-white">Find out more</button>
                             </div>
-                            <div>
-                                <button href="">Play Demo</button>
+                            <div class="flex flex-1 justify-center items-center font-medium">
+                                <button class="flex items-center">
+                                <img src="icons/demo.svg" alt="" class="-mb-7">
+                                Play Demo
+                            </button>
+                            
                             </div>
                         </div>
                     </div>
@@ -81,74 +85,60 @@
             </div>
         </section>
 
-        <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
-            <div>
-                <h3>CATEGORY</h3>
-                <h1>We Offer Best Services</h1>
-                <ul>
-                    <li>
-                        <div>
-                            <h4>Calculated Weather</h4>
-                            <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h4>Best Flights</h4>
-                            <p>Engrossed listening. Park gate sell they west hard for the.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h4>Local Events</h4>
-                            <p>Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h4>Customization</h4>
-                            <p>We deliver outsourced aviation services for military customers.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
-            <div>
-                <h3>Top Selling</h3>
-                <h1>Top Destinations</h1>
-                <ul>
-                    <li>
-                        <div>
-                            <div>
-                                <div>
-                                    <h4>Rome, Italy</h4>
-                                    <h4>$5,42k</h4>
+        <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
+            <div class="flex flex-col justify-center items-center w-full text-center">
+                <h3 class="py-1">CATEGORY</h3>
+                <h1 class="font-big font-bold text-[50px] py-2" style="color: #14183E;">We Offer Best Services</h1>
+                <ul class="flex flex-wrap justify-between items-center gap-8 w-full py-12">
+                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col justify-center items-center py-8">
+                            <div class="py-10">
+                                <img src="images/Group 48.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-4/5 justify-center items-center">
+                                <h4 class="font-semibold text-[20px] py-2">Calculated Weather</h4>
+                                <div class="w-4/5 justify-center items-center py-2">
+                                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
                                 </div>
-                                <div>10 Days Trip</div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div>
-                            <div>
-                                <div>
-                                    <h4>London, UK</h4>
-                                    <h4>$4,2k</h4>
+                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col justify-center items-center py-5">
+                            <div class="py-2">
+                                <img src="images/Group 51.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-4/5 justify-center items-center">
+                                <h4 class="font-semibold text-[20px] py-2">Best Flights</h4>
+                                <div class="w-4/5 justify-center items-center py-2">
+                                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
                                 </div>
-                                <div>12 Days Trip</div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div>
-                            <div>
-                                <div>
-                                    <h4>Full Europe</h4>
-                                    <h4>$15k</h4>
+                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col justify-center items-center py-8">
+                            <div class="py-10">
+                                <img src="images/Group 50.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-4/5 justify-center items-center">
+                                <h4 class="font-semibold text-[20px] py-2">Local Events</h4>
+                                <div class="w-4/5 justify-center items-center py-2">
+                                    <p>Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
                                 </div>
-                                <div>28 Days Trip</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col justify-center items-center py-8">
+                            <div class="py-10">
+                                <img src="images/Group 49.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-4/5 justify-center items-center">
+                                <h4 class="font-semibold text-[20px] py-2">Customization</h4>
+                                <div class="w-4/5 justify-center items-center py-2">
+                                    <p>We deliver outsourced aviation services for military customers.</p>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -156,43 +146,139 @@
             </div>
         </section>
 
-        <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
-            <div>
-                <div>
-                    <h3>Easy and fast</h3>
-                    <h1>Book Your Next Trip In 3 Easy Steps</h1>
-                    <ul>
-                        <li>
-                            <div></div>
-                            <div>
-                                <h4>Choose Destination</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Urna, tortor tempus.</p>
+        <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
+            <div class="flex flex-col justify-center items-center text-center">
+                <h3 class="py-1">Top Selling</h3>
+                <h1 class="font-big font-bold text-[50px] py-2" style="color: #14183E;">Top Destinations</h1>
+                <ul class="py-7 flex flex-wrap w-full justify-between items-center">
+                    <li class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg  hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col">
+                            <div class="relative h-[457px] w-[314px]">
+                                <img src="images/destination 1.png" alt="" class="object-cover w-full h-full rounded-2xl">
+                                <div class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl pb-6 px-6">
+                                    <div class="flex flex-row max-lg:flex-col justify-between w-full py-3">
+                                        <h4>Rome, Italy</h4>
+                                        <h4>$5,42k</h4>
+                                    </div>
+                                    <div class="flex flex-row gap-3">
+                                        <img src="icons/destination.svg" alt="">
+                                        <p>10 Days Trip</p>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <div></div>
-                            <div>
-                                <h4>Make Payment</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Urna, tortor tempus.</p>
+                        </div>
+                    </li>
+                    <li class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col">
+                            <div class="relative h-[457px] w-[314px]">
+                                <img src="images/destination 2.jpeg" alt="" class="object-cover w-full h-full rounded-2xl">
+                                <div class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl px-6 pb-6">
+                                    <div class="flex flex-row max-lg:flex-col justify-between w-full py-3">
+                                        <h4>London, UK</h4>
+                                        <h4>$4,2k</h4>
+                                    </div>
+                                    <div class="flex flex-row gap-3">
+                                        <img src="icons/destination.svg" alt="">
+                                        <p>12 Days Trip</p>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <div></div>
-                            <div>
-                                <h4>Reach Airport on Selected Date</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Urna, tortor tempus.</p>
+                        </div>
+                    </li>
+                    <li class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="flex flex-col">
+                            <div class="relative h-[457px] w-[314px]">
+                                <img src="images/destination 3.png" alt="" class="object-cover h-full w-full rounded-2xl">
+                                <div class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl pb-6 px-6">
+                                    <div class="flex flex-row max-lg:flex-col justify-between w-full py-3">
+                                        <h4>Full Europe</h4>
+                                        <h4>$15k</h4>
+                                    </div>
+                                    <div class="flex flex-row gap-3">
+                                        <img src="icons/destination.svg" alt="">
+                                        <p>28 Days Trip</p>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="max-w-screen mx-52 max-lg:mx-auto">
+            <div class="flex flex-row mx-7 my-10 justify-between w-full">
+                <div class="w-1/2 justify-center items-start">
+                    <div class="w-4/5">
+                        <h3 class="py-1 font-semibold">Easy and fast</h3>
+                        <h1 class="font-big font-bold text-[53px] leading-[70px] py-2" style="color: #14183E;">Book Your Next Trip In 3 Easy Steps</h1>
+                        <ul>
+                            <li class="py-3">
+                                <div class="flex flex-row justify-start items-start w-4/5">
+                                    <div class="w-1/5 py-2">
+                                        <img src="images/Group 7.png" alt="">
+                                    </div>
+                                    <div class="w-4/5">
+                                        <h4 class="font-semibold">Choose Destination</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Urna, tortor tempus.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-3">
+                                <div class="flex flex-row justify-start items-start w-4/5">
+                                    <div class="w-1/5 py-2">
+                                        <img src="images/Group 12.png" alt="">
+                                    </div>
+                                    <div class="w-4/5">
+                                        <h4 class="font-semibold">Make Payment</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Urna, tortor tempus.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="py-3">
+                                <div class="flex flex-row justify-start items-start w-4/5">
+                                    <div class="w-1/5 py-2">
+                                        <img src="images/Group 11.png" alt="">
+                                    </div>
+                                    <div class="w-4/5">
+                                        <h4 class="font-semibold">Reach Airport on Selected Date</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Urna, tortor tempus.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div></div>
+                <div class="w-1/2 flex justify-center items-center">
+                    <div class="rounded-3xl pt-7 px-7 bg-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                        <div class="h-[161px] w-[321px]">
+                            <img src="images/Rectangle 17.jpeg" alt="" class="rounded-3xl">
+                        </div>
+                        <div class="py-7 w-full leading-8" style="color: #84829A;">
+                            <h4 class="font-semibold" style="color: #080809;">Trip To Greece</h4>
+                            <p>14-29 June| by Robbin joseph</p>
+                            <div class="flex flex-row gap-4 py-2">
+                                <img src="icons/leaf.svg" alt="">
+                                <img src="icons/map icon.svg" alt="">
+                                <img src="icons/send.svg" alt="">
+                            </div>
+                            <div class="pt-1 flex flex-row justify-between w-full">
+                                <div class="flex flex-row">
+                                    <img src="icons/building.svg" alt="">
+                                    <p class="px-3">24 people going</p>
+                                </div>
+                                <img src="icons/heart.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
+        <section class="max-w-screen mx-52 max-lg:mx-auto">
             <div>
                 <div>
                     <h3>TESTIMONIALS</h3>
@@ -202,7 +288,7 @@
             </div>
         </section>
         
-        <section class="max-w-screen-xl mx-52 max-lg:mx-auto">
+        <section class="max-w-screen mx-52 max-lg:mx-auto">
             <div>
                 <div>
                     <p>Suscribe to get information, latest news ans other interesting offers about Jadoo</p>

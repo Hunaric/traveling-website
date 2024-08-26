@@ -1,390 +1,696 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jadoo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        :root {
-            --font-display: 'Poppins';
-            --font-big: 'Volkhov';
-        }
-        
-        body {
-            font-family: var(--font-display);
-        }
+      :root {
+        --font-display: "Poppins";
+        --font-big: "Volkhov";
+      }
 
-        .font-display {
-            font-family: var(--font-display);
-        }
+      body {
+        font-family: var(--font-display);
+      }
 
-        .font-big {
-            font-family: var(--font-big);
-        }
+      .font-display {
+        font-family: var(--font-display);
+      }
+
+      .font-big {
+        font-family: var(--font-big);
+      }
     </style>
-</head>
+  </head>
 
-<body class="text-cyan-900 font-medium bg-gray-100">
+  <body class="text-cyan-900 font-medium bg-gray-100">
     <main class="relative">
-        <header class="relative top-0 py-6 w-full z-50 h-20">
-            <nav class="flex justify-between gap-10 items-center max-w-screen mx-52 max-lg:mx-auto">
-                <a href="#home" id="home" class="block flex-1">
-                    <img 
-                     src="images/Logo.png" 
-                     alt="Logo"
+      <header class="relative top-0 py-6 w-full z-50 h-20">
+        <nav
+          class="flex justify-between gap-10 items-center max-w-screen mx-52 max-lg:mx-auto"
+        >
+          <a href="#home" id="home" class="block flex-1">
+            <img src="images/Logo.png" alt="Logo" />
+          </a>
+          <ul
+            class="flex justify-between items-end gap-20 pl-20 font-display font-semibold text-black"
+          >
+            <li>Destinations</li>
+            <li>Hotels</li>
+            <li>Flights</li>
+            <li>Booking</li>
+            <li>Login</li>
+            <li class="ring-1 ring-black rounded-sm py-1 px-3">Sign up</li>
+            <li class="flex flex-row gap-3">
+              EN
+              <img src="icons/EN vector.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+      </header>
 
+      <section class="max-w-screen top-0 absolute w-full">
+        <div class="w-full">
+          <img
+            src="images/Decore-1.png"
+            alt=""
+            class="object-cover w-full z-0"
+          />
+          <img
+            src="images/plane-1.png"
+            alt=""
+            class="absolute top-72 left-1/2 transform translate-x-0 -translate-y-[50px] z-1"
+          />
+          <img
+            src="images/plane-1.png"
+            alt=""
+            class="absolute top-80 right-80 transform translate-x-[140px] -translate-y-0 z-10"
+          />
+          <img
+            src="images/Vector 6.png"
+            alt=""
+            width="385px"
+            height="12px"
+            class="absolute top-96 right-1/2 transform -translate-x-[96px] translate-y-[14px] z-10"
+          />
+        </div>
+      </section>
+
+      <section class="max-w-screen mx-52 max-lg:mx-auto mt-14 py-9">
+        <div class="flex flex-row-reverse justify-between items-center">
+          <div class="w-1/2 z-20">
+            <img
+              src="images/Traveller 1.png"
+              alt=""
+              class="hover:scale-110 transition-transform duration-300 ease-in-out transform"
+            />
+          </div>
+          <div class="w-1/2 z-20">
+            <div class="w-4/5 justify-center">
+              <h3 class="text-orange-600 font-bold text-[20px]">
+                BEST DESTINATIONS AROUND THE WORLD
+              </h3>
+              <h1
+                class="font-big font-bold text-[84px] leading-[89px] py-8"
+                style="color: #212832"
+              >
+                Travel, enjoy and live a new and full life
+              </h1>
+              <div class="w-4/5 justify-start py-2">
+                <p
+                  class="font-display font-medium text-[16.5px] leading-[30px]"
+                >
+                  Built Wicket longer admire do barton vanity itself do in it.
+                  Preferred to sportsmen it engrossed listening. Park gate sell
+                  they west hard for the.
+                </p>
+              </div>
+              <div
+                class="w-3/5 justify-between flex flex-row items-center h-full"
+              >
+                <div>
+                  <button
+                    href=""
+                    class="px-4 py-3 rounded-lg bg-yellow-500 text-white"
+                  >
+                    Find out more
+                  </button>
+                </div>
+                <div
+                  class="flex flex-1 justify-center items-center font-medium"
+                >
+                  <button class="flex items-center">
+                    <img src="icons/demo.svg" alt="" class="-mb-7" />
+                    Play Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
+        <div class="relative">
+          <div class="absolute -right-28 -top-2">
+            <img src="images/Group 4.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center w-full text-center"
+        >
+          <h3 class="py-1">CATEGORY</h3>
+          <h1
+            class="font-big font-bold text-[50px] py-2"
+            style="color: #14183e"
+          >
+            We Offer Best Services
+          </h1>
+          <ul
+            class="flex flex-wrap justify-between items-center gap-8 w-full py-12"
+          >
+            <div class="relative w-full z-0">
+              <div
+                class="absolute transform translate-x-[360px] translate-y-[370px]"
+              >
+                <img
+                  src="images/Rectangle 157.png"
+                  alt=""
+                  class="object-contain"
+                />
+              </div>
+            </div>
+            <li
+              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="flex flex-col justify-center items-center py-8">
+                <div class="py-10">
+                  <img src="images/Group 48.png" alt="" />
+                </div>
+                <div class="flex flex-col w-4/5 justify-center items-center">
+                  <h4 class="font-semibold text-[20px] py-2">
+                    Calculated Weather
+                  </h4>
+                  <div class="w-4/5 justify-center items-center py-2">
+                    <p>
+                      Built Wicket longer admire do barton vanity itself do in
+                      it.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform z-50 bg-gray-100"
+            >
+              <div class="flex flex-col justify-center items-center py-5">
+                <div class="py-2">
+                  <img src="images/Group 51.png" alt="" />
+                </div>
+                <div class="flex flex-col w-4/5 justify-center items-center">
+                  <h4 class="font-semibold text-[20px] py-2">Best Flights</h4>
+                  <div class="w-4/5 justify-center items-center py-2">
+                    <p>
+                      Built Wicket longer admire do barton vanity itself do in
+                      it.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="flex flex-col justify-center items-center py-8">
+                <div class="py-10">
+                  <img src="images/Group 50.png" alt="" />
+                </div>
+                <div class="flex flex-col w-4/5 justify-center items-center">
+                  <h4 class="font-semibold text-[20px] py-2">Local Events</h4>
+                  <div class="w-4/5 justify-center items-center py-2">
+                    <p>
+                      Barton vanity itself do in it. Preferd to men it engrossed
+                      listening.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="flex flex-col justify-center items-center py-8">
+                <div class="py-10">
+                  <img src="images/Group 49.png" alt="" />
+                </div>
+                <div class="flex flex-col w-4/5 justify-center items-center">
+                  <h4 class="font-semibold text-[20px] py-2">Customization</h4>
+                  <div class="w-4/5 justify-center items-center py-2">
+                    <p>
+                      We deliver outsourced aviation services for military
+                      customers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
+        <div class="flex flex-col justify-center items-center text-center">
+          <h3 class="py-1">Top Selling</h3>
+          <h1
+            class="font-big font-bold text-[50px] py-2"
+            style="color: #14183e"
+          >
+            Top Destinations
+          </h1>
+          <ul class="py-7 flex flex-wrap w-full justify-between items-center">
+            <div class="relative w-full">
+              <div
+                class="absolute right-0 transform translate-x-[30px] translate-y-[200px]"
+              >
+                <img src="icons/decore.svg" alt="" />
+              </div>
+            </div>
+            <li
+              class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="flex flex-col">
+                <div class="relative h-[457px] w-[314px]">
+                  <img
+                    src="images/destination 1.png"
+                    alt=""
+                    class="object-cover w-full h-full rounded-2xl"
+                  />
+                  <div
+                    class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl pb-6 px-6"
+                  >
+                    <div
+                      class="flex flex-row max-lg:flex-col justify-between w-full py-3"
                     >
-                </a>
-                <ul class="flex justify-between items-end gap-20 pl-20 font-display font-semibold text-black">
-                    <li>Destinations</li>
-                    <li>Hotels</li>
-                    <li>Flights</li>
-                    <li>Booking</li>
-                    <li>Login</li>
-                    <li>Sign up</li>
-                    <li>EN</li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="max-w-screen top-0 absolute w-full">
-            <div class="w-full">
-                <img src="images/Decore-1.png" alt="" class="object-cover w-full z-0">
-                <img src="images/plane-1.png" alt="" class="absolute top-72 left-1/2 transform translate-x-0 -translate-y-[50px] z-1">
-                <img src="images/plane-1.png" alt="" class="absolute top-80 right-80 transform translate-x-[140px] -translate-y-0 z-10">
-                <img src="images/Vector 6.png" alt="" width="385px" height="12px" class="absolute top-96 right-1/2 transform -translate-x-[96px] translate-y-[14px] z-10">
-            </div>
-        </section>
-
-        <section class="max-w-screen mx-52 max-lg:mx-auto mt-14 py-9">
-            <div class="flex flex-row-reverse justify-between items-center">
-                <div class="w-1/2 z-20">
-                    <img src="images/Traveller 1.png" alt="" class=" hover:scale-110 transition-transform duration-300 ease-in-out transform">
-                </div>
-                <div class="w-1/2 z-20">
-                    <div class="w-4/5 justify-center">
-                        <h3 class="text-orange-600 font-bold text-[20px]">
-                            BEST DESTINATIONS AROUND THE WORLD
-                        </h3>
-                        <h1 class="font-big font-bold text-[84px] leading-[89px] py-8 " style="color: #212832;">
-                            Travel, enjoy and live a new and full life
-                        </h1> 
-                        <div class="w-4/5 justify-start py-2">
-                            <p class="font-display font-medium text-[16.5px] leading-[30px]">
-                                Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
-                            </p>
-                        </div>
-                        <div class="w-3/5 justify-between flex flex-row items-center h-full">
-                            <div>
-                                <button href="" class="px-4 py-3 rounded-lg bg-yellow-500 text-white">Find out more</button>
-                            </div>
-                            <div class="flex flex-1 justify-center items-center font-medium">
-                                <button class="flex items-center">
-                                <img src="icons/demo.svg" alt="" class="-mb-7">
-                                Play Demo
-                            </button>
-                            
-                            </div>
-                        </div>
+                      <h4>Rome, Italy</h4>
+                      <h4>$5,42k</h4>
                     </div>
+                    <div class="flex flex-row gap-3">
+                      <img src="icons/destination.svg" alt="" />
+                      <p>10 Days Trip</p>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </section>
+              </div>
+            </li>
+            <li
+              class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="flex flex-col">
+                <div class="relative h-[457px] w-[314px]">
+                  <img
+                    src="images/destination 2.jpeg"
+                    alt=""
+                    class="object-cover w-full h-full rounded-2xl"
+                  />
+                  <div
+                    class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl px-6 pb-6"
+                  >
+                    <div
+                      class="flex flex-row max-lg:flex-col justify-between w-full py-3"
+                    >
+                      <h4>London, UK</h4>
+                      <h4>$4,2k</h4>
+                    </div>
+                    <div class="flex flex-row gap-3">
+                      <img src="icons/destination.svg" alt="" />
+                      <p>12 Days Trip</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="flex flex-col">
+                <div class="relative h-[457px] w-[314px]">
+                  <img
+                    src="images/destination 3.png"
+                    alt=""
+                    class="object-cover h-full w-full rounded-2xl"
+                  />
+                  <div
+                    class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl pb-6 px-6"
+                  >
+                    <div
+                      class="flex flex-row max-lg:flex-col justify-between w-full py-3"
+                    >
+                      <h4>Full Europe</h4>
+                      <h4>$15k</h4>
+                    </div>
+                    <div class="flex flex-row gap-3">
+                      <img src="icons/destination.svg" alt="" />
+                      <p>28 Days Trip</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
-            <div class="flex flex-col justify-center items-center w-full text-center">
-                <h3 class="py-1">CATEGORY</h3>
-                <h1 class="font-big font-bold text-[50px] py-2" style="color: #14183E;">We Offer Best Services</h1>
-                <ul class="flex flex-wrap justify-between items-center gap-8 w-full py-12">
-                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col justify-center items-center py-8">
-                            <div class="py-10">
-                                <img src="images/Group 48.png" alt="">
-                            </div>
-                            <div class="flex flex-col w-4/5 justify-center items-center">
-                                <h4 class="font-semibold text-[20px] py-2">Calculated Weather</h4>
-                                <div class="w-4/5 justify-center items-center py-2">
-                                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col justify-center items-center py-5">
-                            <div class="py-2">
-                                <img src="images/Group 51.png" alt="">
-                            </div>
-                            <div class="flex flex-col w-4/5 justify-center items-center">
-                                <h4 class="font-semibold text-[20px] py-2">Best Flights</h4>
-                                <div class="w-4/5 justify-center items-center py-2">
-                                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col justify-center items-center py-8">
-                            <div class="py-10">
-                                <img src="images/Group 50.png" alt="">
-                            </div>
-                            <div class="flex flex-col w-4/5 justify-center items-center">
-                                <h4 class="font-semibold text-[20px] py-2">Local Events</h4>
-                                <div class="w-4/5 justify-center items-center py-2">
-                                    <p>Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col justify-center items-center py-8">
-                            <div class="py-10">
-                                <img src="images/Group 49.png" alt="">
-                            </div>
-                            <div class="flex flex-col w-4/5 justify-center items-center">
-                                <h4 class="font-semibold text-[20px] py-2">Customization</h4>
-                                <div class="w-4/5 justify-center items-center py-2">
-                                    <p>We deliver outsourced aviation services for military customers.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
-            <div class="flex flex-col justify-center items-center text-center">
-                <h3 class="py-1">Top Selling</h3>
-                <h1 class="font-big font-bold text-[50px] py-2" style="color: #14183E;">Top Destinations</h1>
-                <ul class="py-7 flex flex-wrap w-full justify-between items-center">
-                    <li class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg  hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col">
-                            <div class="relative h-[457px] w-[314px]">
-                                <img src="images/destination 1.png" alt="" class="object-cover w-full h-full rounded-2xl">
-                                <div class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl pb-6 px-6">
-                                    <div class="flex flex-row max-lg:flex-col justify-between w-full py-3">
-                                        <h4>Rome, Italy</h4>
-                                        <h4>$5,42k</h4>
-                                    </div>
-                                    <div class="flex flex-row gap-3">
-                                        <img src="icons/destination.svg" alt="">
-                                        <p>10 Days Trip</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col">
-                            <div class="relative h-[457px] w-[314px]">
-                                <img src="images/destination 2.jpeg" alt="" class="object-cover w-full h-full rounded-2xl">
-                                <div class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl px-6 pb-6">
-                                    <div class="flex flex-row max-lg:flex-col justify-between w-full py-3">
-                                        <h4>London, UK</h4>
-                                        <h4>$4,2k</h4>
-                                    </div>
-                                    <div class="flex flex-row gap-3">
-                                        <img src="icons/destination.svg" alt="">
-                                        <p>12 Days Trip</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="rounded-2xl shadow-md my-7 mx-7 hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="flex flex-col">
-                            <div class="relative h-[457px] w-[314px]">
-                                <img src="images/destination 3.png" alt="" class="object-cover h-full w-full rounded-2xl">
-                                <div class="absolute bg-white bottom-0 w-full h-1/4 flex flex-col justify-center items-start rounded-b-2xl pb-6 px-6">
-                                    <div class="flex flex-row max-lg:flex-col justify-between w-full py-3">
-                                        <h4>Full Europe</h4>
-                                        <h4>$15k</h4>
-                                    </div>
-                                    <div class="flex flex-row gap-3">
-                                        <img src="icons/destination.svg" alt="">
-                                        <p>28 Days Trip</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="max-w-screen mx-52 max-lg:mx-auto">
-            <div class="flex flex-row mx-7 my-10 justify-between w-full">
-                <div class="w-1/2 justify-center items-start">
+      <section class="max-w-screen mx-52 max-lg:mx-auto">
+        <div class="flex flex-row mx-7 my-10 justify-between w-full">
+          <div class="w-1/2">
+            <div class="w-4/5 justify-center items-start">
+              <h3 class="py-1 font-semibold">Easy and fast</h3>
+              <h1
+                class="font-big font-bold text-[53px] leading-[70px] py-2"
+                style="color: #14183e"
+              >
+                Book Your Next Trip In 3 Easy Steps
+              </h1>
+              <ul>
+                <li class="py-3">
+                  <div class="flex flex-row justify-start items-start w-4/5">
+                    <div class="w-1/5 py-2">
+                      <img src="images/Group 7.png" alt="" />
+                    </div>
                     <div class="w-4/5">
-                        <h3 class="py-1 font-semibold">Easy and fast</h3>
-                        <h1 class="font-big font-bold text-[53px] leading-[70px] py-2" style="color: #14183E;">Book Your Next Trip In 3 Easy Steps</h1>
-                        <ul>
-                            <li class="py-3">
-                                <div class="flex flex-row justify-start items-start w-4/5">
-                                    <div class="w-1/5 py-2">
-                                        <img src="images/Group 7.png" alt="">
-                                    </div>
-                                    <div class="w-4/5">
-                                        <h4 class="font-semibold">Choose Destination</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing elit. Urna, tortor tempus.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-3">
-                                <div class="flex flex-row justify-start items-start w-4/5">
-                                    <div class="w-1/5 py-2">
-                                        <img src="images/Group 12.png" alt="">
-                                    </div>
-                                    <div class="w-4/5">
-                                        <h4 class="font-semibold">Make Payment</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing elit. Urna, tortor tempus.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-3">
-                                <div class="flex flex-row justify-start items-start w-4/5">
-                                    <div class="w-1/5 py-2">
-                                        <img src="images/Group 11.png" alt="">
-                                    </div>
-                                    <div class="w-4/5">
-                                        <h4 class="font-semibold">Reach Airport on Selected Date</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing elit. Urna, tortor tempus.</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                      <h4 class="font-semibold">Choose Destination</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Urna, tortor tempus.
+                      </p>
                     </div>
-                </div>
-                <div class="w-1/2 flex justify-center items-center">
-                    <div class="rounded-3xl pt-7 px-7 bg-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out transform">
-                        <div class="h-[161px] w-[321px]">
-                            <img src="images/Rectangle 17.jpeg" alt="" class="rounded-3xl">
-                        </div>
-                        <div class="py-7 w-full leading-8" style="color: #84829A;">
-                            <h4 class="font-semibold" style="color: #080809;">Trip To Greece</h4>
-                            <p>14-29 June| by Robbin joseph</p>
-                            <div class="flex flex-row gap-4 py-2">
-                                <img src="icons/leaf.svg" alt="">
-                                <img src="icons/map icon.svg" alt="">
-                                <img src="icons/send.svg" alt="">
-                            </div>
-                            <div class="pt-1 flex flex-row justify-between w-full">
-                                <div class="flex flex-row">
-                                    <img src="icons/building.svg" alt="">
-                                    <p class="px-3">24 people going</p>
-                                </div>
-                                <img src="icons/heart.svg" alt="">
-                            </div>
-                        </div>
+                  </div>
+                </li>
+                <li class="py-3">
+                  <div class="flex flex-row justify-start items-start w-4/5">
+                    <div class="w-1/5 py-2">
+                      <img src="images/Group 12.png" alt="" />
                     </div>
-                </div>
+                    <div class="w-4/5">
+                      <h4 class="font-semibold">Make Payment</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Urna, tortor tempus.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3">
+                  <div class="flex flex-row justify-start items-start w-4/5">
+                    <div class="w-1/5 py-2">
+                      <img src="images/Group 11.png" alt="" />
+                    </div>
+                    <div class="w-4/5">
+                      <h4 class="font-semibold">
+                        Reach Airport on Selected Date
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Urna, tortor tempus.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+          <div class="w-1/2 relative flex justify-center items-center">
+            <div
+              class="absolute transform -translate-y-[90px] translate-x-[90px] opacity-60"
+            >
+              <img src="icons/elipse 8.svg" alt="" />
+            </div>
+            <div
+              class="rounded-3xl pt-7 px-7 bg-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out transform"
+            >
+              <div class="h-[161px] w-[321px]">
+                <img
+                  src="images/Rectangle 17.jpeg"
+                  alt=""
+                  class="rounded-3xl"
+                />
+              </div>
+              <div class="py-7 w-full leading-8" style="color: #84829a">
+                <h4 class="font-semibold" style="color: #080809">
+                  Trip To Greece
+                </h4>
+                <p>14-29 June| by Robbin joseph</p>
+                <div class="flex flex-row gap-4 py-2">
+                  <img src="icons/leaf.svg" alt="" />
+                  <img src="icons/map icon.svg" alt="" />
+                  <img src="icons/send.svg" alt="" />
+                </div>
+                <div class="pt-1 flex flex-row justify-between w-full">
+                  <div class="flex flex-row">
+                    <img src="icons/building.svg" alt="" />
+                    <p class="px-3">24 people going</p>
+                  </div>
+                  <img src="icons/heart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="max-w-screen mx-52 px-10 max-lg:mx-auto my-32">
-            <div class="flex flex-row justify-start">
-                <div class="w-1/2">
-                    <div class="w-3/5">
-                        <h3 class="py-1 font-semibold">TESTIMONIALS</h3>
-                        <h1 class="font-big font-bold text-[53px] leading-[70px] py-2" style="color: #14183E;">What People Say About Us.</h1>
-                        <div class="flex flex-row gap-8 my-24">
-                            <div class="px-1 py-1 rounded-full border-2 w-1" style="background-color: #39425D; border-color: #39425D;"></div>
-                            <div class="px-1 py-1 rounded-full border-2 w-1" style="background-color: #E5E5E5; border-color: #E5E5E5;"></div>
-                            <div class="px-1 py-1 rounded-full border-2 w-1" style="background-color: #E5E5E5; border-color: #E5E5E5;"></div>
-                        </div>
-                    </div>
+      <section class="max-w-screen mx-52 px-10 max-lg:mx-auto my-32">
+        <div class="flex flex-col">
+          <div class="flex relative flex-row justify-start">
+            <div class="absolute right-0 transform translate-y-[100px]">
+              <img src="icons/vector 2.svg" alt="" class="py-5" />
+              <img src="icons/vector 3.svg" alt="" class="py-5" />
+            </div>
+            <div class="w-1/2">
+              <div class="w-3/5">
+                <h3 class="py-1 font-semibold">TESTIMONIALS</h3>
+                <h1
+                  class="font-big font-bold text-[53px] leading-[70px] py-2"
+                  style="color: #14183e"
+                >
+                  What People Say About Us.
+                </h1>
+                <div class="flex flex-row gap-8 my-24">
+                  <div
+                    class="px-1 py-1 rounded-full border-2 w-1"
+                    style="background-color: #39425d; border-color: #39425d"
+                  ></div>
+                  <div
+                    class="px-1 py-1 rounded-full border-2 w-1"
+                    style="background-color: #e5e5e5; border-color: #e5e5e5"
+                  ></div>
+                  <div
+                    class="px-1 py-1 rounded-full border-2 w-1"
+                    style="background-color: #e5e5e5; border-color: #e5e5e5"
+                  ></div>
                 </div>
-                <div class="w-1/2">
-                    <div class="relative z-50">
-                        <img src="images/image (2).png" alt="" class="rounded-full" width="68px" height="68px">
-                    </div>
-                    <div class="relative w-4/5 z-10">
-                        <div class=" absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-lg transform -top-8 -right-[8px] bg-gray-100">
-                            <div class="mx-2 w-4/5">
-                                <p class="" style="color: #4E4E73;">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-                            </div>
-                            <div class="flex flex-col mx-2 mt-6 mb-2">
-                                <h4 class="font-semibold pb-1" style="color: #5E6282;">Mike taylor</h4>
-                                <p class="text-[14px]" style="color: #5E6282;">Lahore, Pakistan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="relative w-4/5 opacity-80" style="background-color: #f7f7f7;">
-                        <div class="absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-md transform top-[62px] left-[90px] z-0">
-                            <div class="mx-2 w-4/5">
-                                <p class="" style="color: #4E4E73;">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-                            </div>
-                            <div class="flex flex-col mx-2 mt-6 -mb-2">
-                                <h4 class="font-semibold pb-1" style="color: #5E6282;">Chris Thomas</h4>
-                                <p class="text-[14px]" style="color: #5E6282;">CEO of Red Botton</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="w-1/2">
+              <div class="relative z-50  hover:scale-110 transition-transform duration-300 ease-in-out origin-top-left">
+                <img
+                  src="images/image (2).png"
+                  alt=""
+                  class="rounded-full"
+                  width="68px"
+                  height="68px"
+                />
+              </div>
+              <div class="relative w-4/5 z-10">
+                <div
+                  class="absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-lg transform -top-8 -right-[8px] bg-gray-100 hover:scale-105 origin-top transition-transform duration-300 ease-in-out"
+                >
+                  <div class="mx-2 w-4/5">
+                    <p class="" style="color: #4e4e73">
+                      “On the Windows talking painted pasture yet its express
+                      parties use. Sure last upon he same as knew next. Of
+                      believed or diverted no.”
+                    </p>
+                  </div>
+                  <div class="flex flex-col mx-2 mt-6 mb-2">
+                    <h4 class="font-semibold pb-1" style="color: #5e6282">
+                      Mike taylor
+                    </h4>
+                    <p class="text-[14px]" style="color: #5e6282">
+                      Lahore, Pakistan
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="relative w-4/5 opacity-80"
+                style="background-color: #f7f7f7"
+              >
+                <div
+                  class="absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-md transform top-[62px] left-[90px] z-0 hover:scale-105 transition-transform origin-top duration-300 ease-in-out"
+                >
+                  <div class="mx-2 w-4/5">
+                    <p class="" style="color: #4e4e73">
+                      “On the Windows talking painted pasture yet its express
+                      parties use. Sure last upon he same as knew next. Of
+                      believed or diverted no.”
+                    </p>
+                  </div>
+                  <div class="flex flex-col mx-2 mt-6 -mb-2">
+                    <h4 class="font-semibold pb-1" style="color: #5e6282">
+                      Chris Thomas
+                    </h4>
+                    <p class="text-[14px]" style="color: #5e6282">
+                      CEO of Red Botton
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-between items-center h-[140px]">
+            <div
+              class="py-4 px-8 rounded-lg hover:shadow-md transform duration-300 transition-transform ease-in-out hover:scale-110"
+            >
+              <img src="images/image 27.png" alt="" />
+            </div>
+            <div
+              class="py-4 px-8 rounded-lg hover:shadow-md transform duration-300 transition-transform ease-in-out hover:scale-110"
+            >
+              <img src="images/image 28.png" alt="" />
+            </div>
+            <div
+              class="py-2 px-8 rounded-lg hover:shadow-md transform duration-300 transition-transform ease-in-out hover:scale-110"
+            >
+              <img src="images/image 29.png" alt="" />
+            </div>
+            <div
+              class="py-3 px-8 rounded-lg hover:shadow-md transform duration-300 transition-transform ease-in-out hover:scale-110"
+            >
+              <img src="images/image 30.png" alt="" />
+            </div>
+            <div
+              class="py-5 px-10 rounded-lg hover:shadow-md transform duration-300 transition-transform ease-in-out hover:scale-110"
+            >
+              <img src="images/image 31.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-screen mx-52 max-lg:mx-auto pb-32">
+        <div class="relative h-full">
+          <div
+            class="absolute bottom-0 right-0 transform translate-x-[100px] translate-y-[76px]"
+          >
+            <img src="images/Group 5.png" alt="" />
+          </div>
+          <div
+            class="relative py-10 px-16 flex flex-col justify-center items-center rounded-bl-3xl rounded-br-3xl rounded-tr-3xl rounded-tl-[120px]"
+            style="background-color: rgba(215, 215, 249, 0.2)"
+          >
+            <div class="absolute left-[100px] bottom-0 opacity-15">
+              <img src="images/Group 42.png" alt="" />
+            </div>
+            <div class="absolute right-0 top-0 opacity-15">
+              <img src="images/Group 42 (1).png" alt="" />
+            </div>
+            <div
+              class="absolute z-50 -top-[22px] right-0 transform translate-x-[22px] hover:scale-95 transition-transform duration-300 origin-top-right"
+            >
+              <img src="images/Group 77.png" alt="" />
+            </div>
+            <div
+              class="w-3/4 font-semibold text-[33px] leading-[54px] justify-center items-center text-center"
+            >
+              <p>
+                Suscribe to get information, latest news ans other interesting
+                offers about Jadoo
+              </p>
+            </div>
+            <div
+              class="flex flex-row justify-between items-center gap-11 py-20 z-20"
+            >
+              <input
+                type="email"
+                name=""
+                id=""
+                class="h-[68px] w-[421px] rounded-md placeholder-gray-900 pl-14"
+                placeholder="Your email"
+                style="
+                  background-image: url('icons/mail.svg');
+                  background-repeat: no-repeat;
+                  background-position: 18px center;
+                  color: #080809;
+                "
+              />
+
+              <button
+                class="w-[180px] h-[68px] rounded-xl text-white"
+                style="
+                  background-image: linear-gradient(
+                    to bottom,
+                    #ff946d,
+                    #ff7d68
+                  );
+                "
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <footer class="max-w-screen mx-52 max-lg:mx-auto mb-20">
+            <div class="flex flex-col justify-center items-center gap-20">
+                <div class="flex w-full flex-row justify-between items-start">
+                  <div class="w-1/3 justify-start items-center">
+                      <div class="flex flex-col gap-8 w-3/5">
+                          <img src="images/logo footer.png" alt="" class="w-[152px]">
+                          <p>Book your trip in minute, get full Control for much longer.</p>
+                      </div>
+                  </div>
+                  <div class="w-1/3 flex flex-row justify-between">
+                      <div>
+                        <h2 class="font-bold text-[21px] mb-[26.15px]" style="color: #080809;">Company</h2>
+                        <ul class="leading-[22.41px] flex flex-col gap-2">
+                          <li class="cursor-pointer">About</li>
+                          <li class="cursor-pointer">Careers</li>
+                          <li class="cursor-pointer">Mobile</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h2 class="font-bold text-[21px] mb-[26.15px]" style="color: #080809;">Contact</h2>
+                        <ul class="leading-[22.41px] flex flex-col gap-2">
+                          <li class="cursor-pointer">Help/FAQ</li>
+                          <li class="cursor-pointer">Press</li>
+                          <li class="cursor-pointer">Affiliates</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h2 class="font-bold text-[21px] mb-[26.15px]" style="color: #080809;">More</h2>
+                        <ul class="leading-[22.41px] flex flex-col gap-2">
+                          <li class="cursor-pointer">Airlinefees</li>
+                          <li class="cursor-pointer">Airline</li>
+                          <li class="cursor-pointer">Low fare tips</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="w-1/3">
+                      <div class="w-full flex flex-col justify-between items-end">
+                          <div class="w-3/5 flex flex-col justify-center items-start gap-2">
+                              
+                              <div class="flex flex-row gap-4">
+                                <img src="icons/social.svg" alt="">
+                                <img src="images/Social (1).png" alt="">
+                                <img src="images/Social.png" alt="">
+                              </div>
+                              <div>
+                                <p class="text-[20px] pl-3">Discover our app</p>
+                              </div>
+                              <div class="flex flex-row gap-4 pl-3 pt-3">
+                                  <img src="images/Google Play.png" alt="">
+                                  <img src="images/Play Store.png" alt="">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div>
+                  <p>All right reserved @ jadoo.co</p>
                 </div>
             </div>
-        </section>
-        
-        <section class="max-w-screen mx-52 max-lg:mx-auto">
-            <div>
-                <div>
-                    <p>Suscribe to get information, latest news ans other interesting offers about Jadoo</p>
-                </div>
-                <div>
-                    <input type="email" name="" id="">
-                    <button>Suscribe</button>
-                </div>
-            </div>
-        </section>
-        
-        <section>
-            <footer class="max-w-screen-xl mx-52 max-lg:mx-auto">
-                <div>
-                    <div>
-                        <p>Book your trip in minute, get full Control for much longer.</p>
-                    </div>
-                    <div>
-                        <h2>Company</h2>
-                        <ul>
-                            <li>About</li>
-                            <li>Careers</li>
-                            <li>Mobile</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2>Contact</h2>
-                        <ul>
-                            <li>Help/FAQ</li>
-                            <li>Press</li>
-                            <li>Affiliates</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2>More</h2>
-                        <ul>
-                            <li>Airlinefees</li>
-                            <li>Airline</li>
-                            <li>Low fare tips</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <p>Discover our app</p>
-                        </div>
-                        <div></div>
-                    </div>
-                </div>
-                <div>
-                    <p>All right reserved @ jadoo.co</p>
-                </div>
-            </footer>
-        </section>
+        </footer>
+      </section>
     </main>
-</body>
+  </body>
 </html>

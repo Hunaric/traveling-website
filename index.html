@@ -35,13 +35,13 @@
     <main class="relative">
       <header class="relative top-0 py-6 w-full z-50 h-20">
         <nav
-          class="flex justify-between gap-10 items-center max-w-screen mx-52 max-lg:mx-auto"
+          class="flex justify-between gap-10 max-lg:gap-4 items-center max-w-screen mx-52 max-lg:mx-16"
         >
-          <a href="#home" id="home" class="block flex-1">
-            <img src="images/Logo.png" alt="Logo" />
+          <a href="#home" id="home" class="block flex-1 ">
+            <img src="images/Logo.png" alt="Logo" class="w-[114.91px] h-[33.99px]"/>
           </a>
           <ul
-            class="flex justify-between items-end gap-20 pl-20 font-display font-semibold text-black"
+            class="flex justify-between items-end gap-20 pl-20 font-display font-semibold text-black max-2xl:hidden"
           >
             <li>Destinations</li>
             <li>Hotels</li>
@@ -62,39 +62,45 @@
           <img
             src="images/Decore-1.png"
             alt=""
-            class="object-cover w-full z-0"
+            class="object-cover w-full z-0 max-lg:hidden"
+          />
+        <div class="w-full">
+          <img
+            src="images/Decore-2.png"
+            alt=""
+            class="hidden object-cover w-full z-0 max-lg:block"
           />
           <img
             src="images/plane-1.png"
             alt=""
-            class="absolute top-72 left-1/2 transform translate-x-0 -translate-y-[50px] z-1"
+            class="absolute max-lg:hidden top-72 left-1/2 transform translate-x-0 -translate-y-[50px] z-1"
           />
           <img
             src="images/plane-1.png"
             alt=""
-            class="absolute top-80 right-80 transform translate-x-[140px] -translate-y-0 z-10"
+            class="absolute max-lg:hidden top-80 right-80 transform translate-x-[140px] -translate-y-0 z-10"
           />
           <img
             src="images/Vector 6.png"
             alt=""
             width="385px"
             height="12px"
-            class="absolute top-96 right-1/2 transform -translate-x-[96px] translate-y-[14px] z-10"
+            class="absolute top-96 transform translate-x-[480px] translate-y-[14px] max-2xl:hidden z-10"
           />
         </div>
       </section>
 
-      <section class="max-w-screen mx-52 max-lg:mx-auto mt-14 py-9">
-        <div class="flex flex-row-reverse justify-between items-center">
-          <div class="w-1/2 z-20">
+      <section class="max-w-screen mx-52 max-lg:mx-8 mt-14 py-9">
+        <div class="flex flex-row-reverse max-lg:flex-col max-lg:gap-10 justify-between items-center max-lg:justify-center max-lg:text-center max-lg:mx-8">
+          <div class="w-1/2 z-20 max-lg:w-full">
             <img
               src="images/Traveller 1.png"
               alt=""
               class="hover:scale-110 transition-transform duration-300 ease-in-out transform"
             />
           </div>
-          <div class="w-1/2 z-20">
-            <div class="w-4/5 justify-center">
+          <div class="w-1/2 z-20 max-lg:w-full max-lg:justify-center max-lg:items-center">
+            <div class="w-4/5 max-lg:w-full justify-center">
               <h3 class="text-orange-600 font-bold text-[20px]">
                 BEST DESTINATIONS AROUND THE WORLD
               </h3>
@@ -104,7 +110,7 @@
               >
                 Travel, enjoy and live a new and full life
               </h1>
-              <div class="w-4/5 justify-start py-2">
+              <div class="w-4/5 max-lg:w-full justify-start max-lg:justify-center max-lg:items-center max-lg:text-center py-2">
                 <p
                   class="font-display font-medium text-[16.5px] leading-[30px]"
                 >
@@ -114,7 +120,7 @@
                 </p>
               </div>
               <div
-                class="w-3/5 justify-between flex flex-row items-center h-full"
+                class="w-3/5 max-lg:w-full justify-between max-lg:justify-center flex flex-row items-center h-full max-lg:flex-col max-lg:gap-8 max-lg:py-8"
               >
                 <div>
                   <button
@@ -138,9 +144,9 @@
         </div>
       </section>
 
-      <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
+      <section class="max-w-screen mx-52 max-lg:mx-8 py-10">
         <div class="relative">
-          <div class="absolute -right-28 -top-2">
+          <div class="absolute -right-28 -top-2 max-lg:hidden">
             <img src="images/Group 4.png" alt="" />
           </div>
         </div>
@@ -155,11 +161,11 @@
             We Offer Best Services
           </h1>
           <ul
-            class="flex flex-wrap justify-between items-center gap-8 w-full py-12"
+            class="flex flex-wrap justify-between max-2xl:justify-center items-center gap-8 w-full py-12"
           >
-            <div class="relative w-full z-0">
+            <div class="relative w-full z-0 max-2xl:hidden">
               <div
-                class="absolute transform translate-x-[360px] translate-y-[370px]"
+                class="absolute transform translate-x-[360px] translate-y-[370px]  max-2xl:hidden"
               >
                 <img
                   src="images/Rectangle 157.png"
@@ -169,9 +175,9 @@
               </div>
             </div>
             <li
-              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
+              class="bg-gray-100 w-[20%] max-2xl:w-[80%] shadow-sm max-2xl:shadow-md hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
             >
-              <div class="flex flex-col justify-center items-center py-8">
+              <div class="flex z-20 flex-col justify-center items-center py-8">
                 <div class="py-10">
                   <img src="images/Group 48.png" alt="" />
                 </div>
@@ -189,9 +195,9 @@
               </div>
             </li>
             <li
-              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform z-50 bg-gray-100"
+              class="bg-gray-100 w-[20%] max-2xl:w-[80%] shadow-sm max-2xl:shadow-md hover:shadow-lg py-8 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
             >
-              <div class="flex flex-col justify-center items-center py-5">
+              <div class="flex z-20 flex-col justify-center items-center py-5">
                 <div class="py-2">
                   <img src="images/Group 51.png" alt="" />
                 </div>
@@ -207,9 +213,9 @@
               </div>
             </li>
             <li
-              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
+              class="bg-gray-100 w-[20%] max-2xl:w-[80%] shadow-sm max-2xl:shadow-md hover:shadow-lg py-5 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
             >
-              <div class="flex flex-col justify-center items-center py-8">
+              <div class="flex z-20 flex-col justify-center items-center py-8">
                 <div class="py-10">
                   <img src="images/Group 50.png" alt="" />
                 </div>
@@ -225,9 +231,9 @@
               </div>
             </li>
             <li
-              class="w-[20%] shadow-sm hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
+              class="bg-gray-100 w-[20%] max-2xl:w-[80%] shadow-sm max-2xl:shadow-md hover:shadow-lg py-6 rounded-[52px] hover:scale-105 transition-transform duration-300 ease-in-out transform"
             >
-              <div class="flex flex-col justify-center items-center py-8">
+              <div class="flex z-20 flex-col justify-center items-center py-8">
                 <div class="py-10">
                   <img src="images/Group 49.png" alt="" />
                 </div>
@@ -246,7 +252,7 @@
         </div>
       </section>
 
-      <section class="max-w-screen mx-52 max-lg:mx-auto py-10">
+      <section class="max-w-screen mx-52 max-lg:mx-8 py-10">
         <div class="flex flex-col justify-center items-center text-center">
           <h3 class="py-1">Top Selling</h3>
           <h1
@@ -255,10 +261,10 @@
           >
             Top Destinations
           </h1>
-          <ul class="py-7 flex flex-wrap w-full justify-between items-center">
+          <ul class="py-7 flex flex-wrap w-full justify-between items-center max-2xl:justify-center">
             <div class="relative w-full">
               <div
-                class="absolute right-0 transform translate-x-[30px] translate-y-[200px]"
+                class="absolute right-0 transform translate-x-[30px] translate-y-[200px] max-2xl:hidden"
               >
                 <img src="icons/decore.svg" alt="" />
               </div>
@@ -348,10 +354,10 @@
         </div>
       </section>
 
-      <section class="max-w-screen mx-52 max-lg:mx-auto">
-        <div class="flex flex-row mx-7 my-10 justify-between w-full">
-          <div class="w-1/2">
-            <div class="w-4/5 justify-center items-start">
+      <section class="max-w-screen mx-52 max-lg:mx-8">
+        <div class="flex flex-row mx-7 my-10 justify-between max-2xl:flex-col max-2xl:justify-center max-2xl:items-center max-2xl:gap-8 max-2xl:text-center w-full">
+          <div class="w-1/2  max-2xl:w-full">
+            <div class="w-4/5 max-2xl:w-full max-lg:px-4 justify-center items-start max-2xl:items-center">
               <h3 class="py-1 font-semibold">Easy and fast</h3>
               <h1
                 class="font-big font-bold text-[53px] leading-[70px] py-2"
@@ -359,13 +365,13 @@
               >
                 Book Your Next Trip In 3 Easy Steps
               </h1>
-              <ul>
+              <ul class="max-lg:px-4">
                 <li class="py-3">
-                  <div class="flex flex-row justify-start items-start w-4/5">
+                  <div class="flex flex-row justify-start items-start max-2xl:w-full max-2xl:text-start w-4/5 gap-4">
                     <div class="w-1/5 py-2">
                       <img src="images/Group 7.png" alt="" />
                     </div>
-                    <div class="w-4/5">
+                    <div class="w-4/5 max-2xl:w-full">
                       <h4 class="font-semibold">Choose Destination</h4>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -375,11 +381,11 @@
                   </div>
                 </li>
                 <li class="py-3">
-                  <div class="flex flex-row justify-start items-start w-4/5">
+                  <div class="flex flex-row justify-start items-start max-2xl:w-full max-2xl:text-start w-4/5 gap-4">
                     <div class="w-1/5 py-2">
                       <img src="images/Group 12.png" alt="" />
                     </div>
-                    <div class="w-4/5">
+                    <div class="w-4/5 max-2xl:w-full">
                       <h4 class="font-semibold">Make Payment</h4>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -389,11 +395,11 @@
                   </div>
                 </li>
                 <li class="py-3">
-                  <div class="flex flex-row justify-start items-start w-4/5">
+                  <div class="flex flex-row justify-start items-start max-2xl:w-full max-2xl:text-start w-4/5 gap-4">
                     <div class="w-1/5 py-2">
                       <img src="images/Group 11.png" alt="" />
                     </div>
-                    <div class="w-4/5">
+                    <div class="w-4/5 max-2xl:w-full">
                       <h4 class="font-semibold">
                         Reach Airport on Selected Date
                       </h4>
@@ -409,12 +415,12 @@
           </div>
           <div class="w-1/2 relative flex justify-center items-center">
             <div
-              class="absolute transform -translate-y-[90px] translate-x-[90px] opacity-60"
+              class="absolute transform -translate-y-[90px] translate-x-[90px] opacity-60 max-2xl:hidden"
             >
               <img src="icons/elipse 8.svg" alt="" />
             </div>
             <div
-              class="rounded-3xl pt-7 px-7 bg-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out transform"
+              class="rounded-3xl pt-7 max-2xl:px-8 px-7 bg-gray-50 shadow-sm hover:shadow-md hover:scale-105 transition-transform duration-300 ease-in-out transform"
             >
               <div class="h-[161px] w-[321px]">
                 <img
@@ -446,15 +452,15 @@
         </div>
       </section>
 
-      <section class="max-w-screen mx-52 px-10 max-lg:mx-auto my-32">
+      <section class="max-w-screen mx-52 px-10 max-lg:mx-8 my-32">
         <div class="flex flex-col">
-          <div class="flex relative flex-row justify-start">
-            <div class="absolute right-0 transform translate-y-[100px]">
+          <div class="flex relative flex-row max-2xl:flex-col justify-start max-2xl:justify-center max-2xl:items-center max-2xl:text-center max-2xl:my-24">
+            <div class="absolute right-0 transform translate-y-[100px] max-2xl:hidden">
               <img src="icons/vector 2.svg" alt="" class="py-5" />
               <img src="icons/vector 3.svg" alt="" class="py-5" />
             </div>
-            <div class="w-1/2">
-              <div class="w-3/5">
+            <div class="w-1/2 max-2xl:w-full">
+              <div class="w-3/5 max-2xl:w-full">
                 <h3 class="py-1 font-semibold">TESTIMONIALS</h3>
                 <h1
                   class="font-big font-bold text-[53px] leading-[70px] py-2"
@@ -462,7 +468,7 @@
                 >
                   What People Say About Us.
                 </h1>
-                <div class="flex flex-row gap-8 my-24">
+                <div class="flex flex-row gap-8 my-24 max-2xl:hidden">
                   <div
                     class="px-1 py-1 rounded-full border-2 w-1"
                     style="background-color: #39425d; border-color: #39425d"
@@ -478,8 +484,8 @@
                 </div>
               </div>
             </div>
-            <div class="w-1/2">
-              <div class="relative z-50  hover:scale-110 transition-transform duration-300 ease-in-out origin-top-left">
+            <div class="w-1/2 max-2xl:w-full max-2xl:flex max-2xl:flex-col max-2xl:justify-center max-2xl:items-center">
+              <div class="relative z-50 max-2xl:items-center hover:scale-110 transition-transform duration-300 ease-in-out origin-top-left">
                 <img
                   src="images/image (2).png"
                   alt=""
@@ -488,9 +494,9 @@
                   height="68px"
                 />
               </div>
-              <div class="relative w-4/5 z-10">
+              <div class="relative w-4/5 max-2xl:w-full z-10">
                 <div
-                  class="absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-lg transform -top-8 -right-[8px] bg-gray-100 hover:scale-105 origin-top transition-transform duration-300 ease-in-out"
+                  class="absolute max-2xl:hidden w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-lg transform -top-8 -right-[8px] bg-gray-100 hover:scale-105 origin-top transition-transform duration-300 ease-in-out"
                 >
                   <div class="mx-2 w-4/5">
                     <p class="" style="color: #4e4e73">
@@ -514,7 +520,7 @@
                 style="background-color: #f7f7f7"
               >
                 <div
-                  class="absolute w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-md transform top-[62px] left-[90px] z-0 hover:scale-105 transition-transform origin-top duration-300 ease-in-out"
+                  class="absolute max-2xl:hidden w-[532px] py-7 px-6 flex flex-col justify-center items-start rounded-xl shadow-md transform top-[62px] left-[90px] z-0 hover:scale-105 transition-transform origin-top duration-300 ease-in-out"
                 >
                   <div class="mx-2 w-4/5">
                     <p class="" style="color: #4e4e73">
@@ -535,7 +541,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap justify-between items-center h-[140px]">
+          <div class="flex flex-wrap justify-between items-center h-[140px] max-2xl:justify-center">
             <div
               class="py-4 px-8 rounded-lg hover:shadow-md transform duration-300 transition-transform ease-in-out hover:scale-110"
             >
@@ -565,44 +571,44 @@
         </div>
       </section>
 
-      <section class="max-w-screen mx-52 max-lg:mx-auto pb-32">
-        <div class="relative h-full">
+      <section class="max-w-screen mx-52 max-lg:mx-8 pb-32">
+        <div class="relative h-full max-2xl:px-8  max-2xl:py-10">
           <div
-            class="absolute bottom-0 right-0 transform translate-x-[100px] translate-y-[76px]"
+            class="absolute max-2xl:hidden bottom-0 right-0 transform translate-x-[100px] translate-y-[76px]"
           >
             <img src="images/Group 5.png" alt="" />
           </div>
           <div
-            class="relative py-10 px-16 flex flex-col justify-center items-center rounded-bl-3xl rounded-br-3xl rounded-tr-3xl rounded-tl-[120px]"
+            class="relative py-10 px-16  max-2xl:px-10  max-2xl:py-8 flex flex-col justify-center items-center rounded-bl-3xl rounded-br-3xl rounded-tr-3xl rounded-tl-[120px]"
             style="background-color: rgba(215, 215, 249, 0.2)"
           >
-            <div class="absolute left-[100px] bottom-0 opacity-15">
+            <div class="absolute left-[100px] bottom-0 opacity-15 max-lg:hidden">
               <img src="images/Group 42.png" alt="" />
             </div>
-            <div class="absolute right-0 top-0 opacity-15">
+            <div class="absolute right-0 top-0 opacity-15 max-lg:hidden">
               <img src="images/Group 42 (1).png" alt="" />
             </div>
             <div
-              class="absolute z-50 -top-[22px] right-0 transform translate-x-[22px] hover:scale-95 transition-transform duration-300 origin-top-right"
+              class="absolute max-2xl:hidden z-50 -top-[22px] right-0 transform translate-x-[22px] hover:scale-95 transition-transform duration-300 origin-top-right"
             >
               <img src="images/Group 77.png" alt="" />
             </div>
             <div
-              class="w-3/4 font-semibold text-[33px] leading-[54px] justify-center items-center text-center"
+              class="w-3/4 max-2xl:w-full font-semibold text-[33px] leading-[54px] justify-center items-center text-center"
             >
               <p>
-                Suscribe to get information, latest news ans other interesting
+                Subscribe to get information, latest news ans other interesting
                 offers about Jadoo
               </p>
             </div>
             <div
-              class="flex flex-row justify-between items-center gap-11 py-20 z-20"
+              class="flex flex-row justify-between items-center gap-11 py-20 max-2xl:flex-col max-2xl:justify-center z-20"
             >
               <input
                 type="email"
                 name=""
                 id=""
-                class="h-[68px] w-[421px] rounded-md placeholder-gray-900 pl-14"
+                class="h-[68px] w-[421px]  max-md:w-[300px] rounded-md placeholder-gray-900 pl-14"
                 placeholder="Your email"
                 style="
                   background-image: url('icons/mail.svg');
@@ -630,16 +636,16 @@
       </section>
 
       <section>
-        <footer class="max-w-screen mx-52 max-lg:mx-auto mb-20">
+        <footer class="max-w-screen mx-52 max-lg:mx-8 mb-20">
             <div class="flex flex-col justify-center items-center gap-20">
-                <div class="flex w-full flex-row justify-between items-start">
-                  <div class="w-1/3 justify-start items-center">
-                      <div class="flex flex-col gap-8 w-3/5">
+                <div class="flex w-full flex-row max-2xl:flex-col max-2xl:justify-center max-2xl:items-center justify-between items-start">
+                  <div class="w-1/3 max-lg:w-2/3 max-2xl:py-6 justify-start items-center">
+                      <div class="flex flex-col gap-8 w-3/5 max-2xl:w-4/5 max-lg:justify-center">
                           <img src="images/logo footer.png" alt="" class="w-[152px]">
                           <p>Book your trip in minute, get full Control for much longer.</p>
                       </div>
                   </div>
-                  <div class="w-1/3 flex flex-row justify-between">
+                  <div class="w-1/3 max-2xl:w-2/3 max-2xl:py-6 flex flex-row max-2xl:flex-wrap justify-between">
                       <div>
                         <h2 class="font-bold text-[21px] mb-[26.15px]" style="color: #080809;">Company</h2>
                         <ul class="leading-[22.41px] flex flex-col gap-2">
@@ -665,9 +671,9 @@
                         </ul>
                       </div>
                   </div>
-                  <div class="w-1/3">
-                      <div class="w-full flex flex-col justify-between items-end">
-                          <div class="w-3/5 flex flex-col justify-center items-start gap-2">
+                  <div class="w-1/3 max-2xl:w-full">
+                      <div class="w-full flex flex-col justify-between max-2xl:justify-center max-2xl:items-center items-end">
+                          <div class="w-3/5 max-2xl:w-4/5 flex flex-col justify-center max-2xl:items-center items-start gap-2">
                               
                               <div class="flex flex-row gap-4">
                                 <img src="icons/social.svg" alt="">
